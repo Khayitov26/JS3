@@ -12,14 +12,14 @@
 
 // H/W2
 
-let quantity = +prompt("Quantity?");
-let symbol1 = prompt("Symbol1?");
-let symbol2 = prompt("Symbol2?");
-quantity = !isNaN(quantity) && quantity != 0 ? quantity : 5;
-for (let i = 0; i < quantity; i++) {
-    symbol1 = symbol1 + symbol2;
-    console.log(symbol1);
-}
+// let quantity = +prompt("Quantity?");
+// let symbol1 = prompt("Symbol1?");
+// let symbol2 = prompt("Symbol2?");
+// quantity = !isNaN(quantity) && quantity != 0 ? quantity : 5;
+// for (let i = 0; i < quantity; i++) {
+//     symbol2 = symbol1 + symbol2;
+//     console.log(symbol2);
+// }
 
 
 // H/W3
@@ -27,8 +27,12 @@ for (let i = 0; i < quantity; i++) {
 // let name = prompt("Name?");
 // let age = +prompt("Age?");
 // let year = +prompt("Year?");
-// function old(num1 = year, num2 = age) {
-//     let current = num1 - num2;
-//     return current
+// function old(year, age) {
+//     let years = year - age;
+//     return years
 // }
-// console.log(old(name + ', your age is ' + current));
+// alert(name + ', you are ' + old(year, age) + ' years old.');  
+
+
+// H/W4
+

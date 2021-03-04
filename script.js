@@ -9,7 +9,6 @@ for (i = 1; i < degree; i++) {
 }
 alert(number2);
 
-
 // H/W2
 
 let quantity = +prompt("Quantity?");
@@ -20,7 +19,6 @@ for (let i = 0; i < quantity; i++) {
     symbol2 = symbol1 + symbol2;
     console.log(symbol2);
 }
-
 
 // H/W3
 
@@ -36,3 +34,18 @@ alert(name + ', you are ' + old(year, age) + ' years old.');
 
 // H/W4
 
+function maths(num1, num2) {
+    return Math.round(Math.random() * (num2 - num1) + num1)
+}
+
+let example = +prompt('Example?')
+example = !isNaN(example) && example != 0 ? example : 1;
+
+for (let i = 1; i < example; i++) {
+    let nums = maths(num1 = 1, num2 = 11)
+    let numz = maths(num1 = 1, num2 = 11)
+    let examples = +prompt(nums + ' + ' + numz + ' =')
+    let answer = (nums + numz) == examples ? 'Good job' : 'Incorrect'
+    alert(nums + ' + ' + numz + ' = ' + (nums + numz) + '.' + ' Your answer ' + examples + '. ' + answer)
+      
+}   
